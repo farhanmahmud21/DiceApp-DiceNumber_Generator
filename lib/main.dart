@@ -5,12 +5,13 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MaterialApp(
     home: Scaffold(
-      backgroundColor: Colors.deepPurpleAccent,
+      backgroundColor: Colors.yellow,
       appBar: AppBar(
         title: const Text('Dice App'),
       ),
       body: DiceApp(),
     ),
+
   ));
 }
 
